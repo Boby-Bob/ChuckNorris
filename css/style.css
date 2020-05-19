@@ -1,0 +1,49 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: tomato;
+}
+.text {
+    width: 450px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+}
+p {
+    font-size: 32px;
+    color: tomato;
+}
+span, button {
+    align-self: flex-end;
+    margin: 10px;
+}
+
+button {
+    color: white;
+    background-color: tomato;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+#quote2, #quote3, #quote4, #quote5, #quote6, #quote7, #quote8, #quote9, #quote10, #quote11, #quote12 {
+    display: none;
+}
+
+.color {
+    background-color: rgb(0,0,0);
+}
+
+.color-back {
+    color: rgb(0,0,0);
+}
+#back {
+    background-color: rgb(0,0,0);
+}
